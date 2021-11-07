@@ -3,7 +3,7 @@ const jano = new Discord.Client();
 //////// playing or dnd  streaming ////////
 jano.on("ready", () => {
   console.log(`Online In Servers`);
-  let statuses = [`JUST ALLAH`];
+  let statuses = [`CAPTAIN UP`];
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
     jano.user.setActivity(STREAMING, {
@@ -18,4 +18,4 @@ jano.on("ready", () => {
   if (join) join.join();
 });
 //////////////// tokn lera da bne
-jano.login("");
+jano.login("NjgxNTczNTE1MTg2NTM2NDg4.YYMY7g.diQP-xKPUT_iMC91wWZ0jmuu0YM");
